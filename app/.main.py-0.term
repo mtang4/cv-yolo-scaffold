@@ -1,0 +1,22 @@
+]0;~/cv-yolo-scaffold/app[01;34m~/cv-yolo-scaffold/app[00m$ [K]0;~/cv-yolo-scaffold/app[01;34m~/cv-yolo-scaffold/app[00m$ python3 main.py
+python3: can't open file 'main.py': [Errno 2] No such file or directory
+]0;~/cv-yolo-scaffold/app[01;34m~/cv-yolo-scaffold/app[00m$ Apython3 main.py
+python3: can't open file 'main.py': [Errno 2] No such file or directory
+]0;~/cv-yolo-scaffold/app[01;34m~/cv-yolo-scaffold/app[00m$ python3 main.py
+python3: can't open file 'main.py': [Errno 2] No such file or directory
+]0;~/cv-yolo-scaffold/app[01;34m~/cv-yolo-scaffold/app[00m$ python4[K3 main.py
+python3: can't open file 'main.py': [Errno 2] No such file or directory
+]0;~/cv-yolo-scaffold/app[01;34m~/cv-yolo-scaffold/app[00m$ ls
+]0;~/cv-yolo-scaffold/app[01;34m~/cv-yolo-scaffold/app[00m$ ls[K[Kcd ..
+]0;~/cv-yolo-scaffold[01;34m~/cv-yolo-scaffold[00m$ ls
+Dockerfile  README.md  [0m[01;34mapp[0m
+]0;~/cv-yolo-scaffold[01;34m~/cv-yolo-scaffold[00m$ cd app
+]0;~/cv-yolo-scaffold/app[01;34m~/cv-yolo-scaffold/app[00m$ ..[K[Kls
+[0m[01;34m__pycache__[0m  ai.py  [01;34mimages[0m  main.py  requirements.txt  [01;34mstatic[0m  [01;34mtemplates[0m  utils.py  uwsgi.ini  [01;34myolo[0m
+]0;~/cv-yolo-scaffold/app[01;34m~/cv-yolo-scaffold/app[00m$ python3 main.py
+[INFO] loading YOLO from disk...
+Traceback (most recent call last):
+  File "main.py", line 110, in <module>
+    print(f"Try to open\n\n    https://{website_url}" + base_url + '\n\n')
+NameError: name 'base_url' is not defined
+]0;~/cv-yolo-scaffold/app[01;34m~/cv-yolo-scaffold/app[00m$ c

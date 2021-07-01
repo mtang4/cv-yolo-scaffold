@@ -9,8 +9,8 @@
     <title>Home</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='nicepage.css') }}" media="screen">
 <link rel="stylesheet" href="{{ url_for('static', filename='Home.css') }}" media="screen">
-    <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}" defer=""></script>
-    <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='nicepage.js') }}"defer=""></script>
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 3.18.2, nicepage.com">
     
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
@@ -34,7 +34,7 @@
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
   </head>
-  <body class="u-body u-overlap u-overlap-contrast u-overlap-transparent"><header class="u-clearfix u-header u-header" id="sec-ad61"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+  <body data-home-page="Home.html" data-home-page-title="Home" class="u-body"><header class="u-clearfix u-header u-header" id="sec-ad61"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <a href="https://www.ai-camp.org/" class="u-image u-logo u-image-1" data-image-width="216" data-image-height="220" title="ai camp home" target="_blank">
           <img src="{{ url_for('static', filename='images/ai_camp_logo.webp')}}" class="u-logo-image u-logo-image-1" data-image-width="54.5882">
         </a>
@@ -72,18 +72,7 @@
           <span style="font-weight: normal;">A deep learning model that identifies an object as cardboard, glass, metal, plastic, paper, or trash.&nbsp;<br>Inspired by the global landfill crisis and growing human ignorance.
           </span>
         </p>
-        <!--     button added for uploading a photo    -->
-        <div class="mbr-buttons--left">
-            <div class="mbr-section-btn">
-                <a href="#" class="u-border-2 u-border-white u-btn u-button-style u-custom-color-1 u-custom-font u-font-raleway u-hover-custom-color-2 u-btn-1" id='seefood_button'>
-                    <form id='seefood_form' method=post enctype=multipart/form-data>
-                        <input id="seefood_input_field" name="file" type="file" onchange="this.form.submit();" hidden/>
-                    </form>
-                    Start Classifying
-                </a>
-
-            </div>
-        </div>
+        <a href="#" class="u-border-2 u-border-white u-btn u-button-style u-custom-color-1 u-custom-font u-font-raleway u-hover-custom-color-2 u-btn-1">Start Classifying</a>
       </div>
     </section>
     <section class="u-align-center u-clearfix u-section-2" id="sec-8126">
@@ -220,7 +209,7 @@
                   <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-60 u-white u-layout-cell-2">
                     <div class="u-container-layout u-container-layout-2">
                       <h2 class="u-custom-font u-text u-text-1">Our Team</h2>
-                      <p class="u-custom-font u-font-raleway u-text u-text-2">Team Central Park, working on object detection and computer vision this summer!</p>
+                      <p class="u-text u-text-2">Team Central Park, working on object detection and computer vision this summer!</p>
                     </div>
                   </div>
                 </div>
@@ -313,30 +302,5 @@
         <span>Website Builder Software</span>
       </a>. 
     </section>
-    <!--     javascript added for uploading a photo    -->
-    <script>
-        // added to get upload with a button working
-        document.getElementById('seefood_button').addEventListener('click', openDialog);
-
-        function openDialog() {
-            document.getElementById('seefood_input_field').click();
-        }
-    </script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $("#spinner").bind("ajaxSend", function() {
-                $(this).show();
-            }).bind("ajaxStop", function() {
-                $(this).hide();
-            }).bind("ajaxError", function() {
-                $(this).hide();
-            });
-            // seefood_input_field
-            $('#seefood_button').click(function() {
-
-            });
-
-        });
-    </script>
   </body>
 </html>

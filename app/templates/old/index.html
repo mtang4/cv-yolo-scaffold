@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Garbage Classifier, Project Overview">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='nicepage.css') }}" media="screen">
+<link rel="stylesheet" href="{{ url_for('static', filename='Home.css') }}" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 3.18.2, nicepage.com">
+    
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Garbage_ID",
+		"logo": "images/ai_camp_logo.jpeg"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Home">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+  </head>
+  <body data-home-page="Home.html" data-home-page-title="Home" class="u-body"><header class="u-clearfix u-header u-header" id="sec-ad61"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="https://www.ai-camp.org/" class="u-image u-logo u-image-1" data-image-width="216" data-image-height="220" title="ai camp home" target="_blank">
+          <img src="{{ url_for('static', filename='images/ai_camp_logo.jpeg')}}" class="u-logo-image u-logo-image-1" data-image-width="54.5882">
+        </a>
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{ url_for('home') }}" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="https://www.ai-camp.org/" style="padding: 10px 20px;">Contact</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{ url_for('home') }}" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://www.ai-camp.org/" style="padding: 10px 20px;">Contact</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-align-center u-clearfix u-image u-shading u-section-1" src="" data-image-width="1024" data-image-height="768" id="sec-807a">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-custom-font u-text u-text-default u-title u-text-1">Garbage Classifier</h1>
+        <p class="u-custom-font u-large-text u-text u-text-default u-text-variant u-text-2">
+          <span style="font-weight: normal;">A deep learning model that identifies an object as cardboard, glass, metal, plastic, paper, or trash.&nbsp;<br>Inspired by the global landfill crisis and growing human ignorance.
+          </span>
+        </p>
+        <a href="#" class="u-border-2 u-border-white u-btn u-button-style u-custom-color-1 u-custom-font u-font-raleway u-hover-custom-color-2 u-btn-1">Start Classifying</a>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-section-2" id="sec-8126">
+      <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout" style="">
+          <div class="u-layout-row" style="">
+            <div class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-shading u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="1280" data-image-height="940">
+              <div class="u-container-layout u-valign-middle u-container-layout-1" src=""></div>
+            </div>
+            <div class="u-align-left u-container-style u-grey-80 u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-layout-cell-2">
+              <div class="u-container-layout u-container-layout-2">
+                <h2 class="u-custom-font u-text u-text-1">Project Overview</h2>
+                <p class="u-custom-font u-font-raleway u-text u-text-body-alt-color u-text-2">This garbage classifier was created to address the recycling crisis.&nbsp; The goal of the AI was to be able to eliminate confusion regarding which category everyday wastes belong to. Our product can successfully determine if an object is cardboard, glass, metal, plastic, paper, or trash. In the future, AIs such as this classifier may be able to aid humans in making seemingly-minor but meaningful decisions that impact the environment and society.&nbsp;</p>
+                <a href="https://www.ai-camp.org/" class="u-border-2 u-border-white u-btn u-btn-rectangle u-button-style u-custom-font u-font-raleway u-hover-custom-color-2 u-none u-btn-1">learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-section-3" id="sec-a3ba">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-custom-font u-text u-text-1">TEAM CENTRAL PARK</h1>
+      </div>
+    </section>
+    <section class="u-clearfix u-custom-typography u-section-4" id="sec-4527">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
+                <div alt="" class="u-image u-image-circle u-image-1" src="" data-image-width="2316" data-image-height="3088"></div>
+                <p class="u-custom-font u-font-raleway u-text u-text-1">Michelle Tang<br>
+                </p>
+                <p class="u-custom-font u-font-raleway u-text u-text-palette-1-base u-text-2"><span class="u-icon u-icon-1"><svg class="u-svg-content" viewBox="0 0 54.757 54.757" x="0px" y="0px" style="width: 1em; height: 1em;"><g><path d="M27.557,12c-3.859,0-7,3.141-7,7s3.141,7,7,7s7-3.141,7-7S31.416,12,27.557,12z M27.557,24c-2.757,0-5-2.243-5-5
+		s2.243-5,5-5s5,2.243,5,5S30.314,24,27.557,24z"></path><path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952
+		L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M41.099,31.431L27.38,51.243L13.639,31.4
+		C8.44,24.468,9.185,13.08,15.235,7.031C18.479,3.787,22.792,2,27.38,2s8.901,1.787,12.146,5.031
+		C45.576,13.08,46.321,24.468,41.099,31.431z"></path>
+</g></svg><img></span>
+                  <span style="font-weight: 700;">&nbsp;Columbia University</span>
+                  <br> (AI Camp TA)<br>
+                </p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-2">
+                <div alt="" class="u-image u-image-circle u-image-2" src="" data-image-width="828" data-image-height="1472"></div>
+                <p class="u-custom-font u-font-raleway u-text u-text-3">Elizabeth Ivanova</p>
+                <p class="u-custom-font u-font-raleway u-text u-text-palette-1-base u-text-4"><span class="u-icon u-icon-2"><svg class="u-svg-content" viewBox="0 0 54.757 54.757" x="0px" y="0px" style="width: 1em; height: 1em;"><g><path d="M27.557,12c-3.859,0-7,3.141-7,7s3.141,7,7,7s7-3.141,7-7S31.416,12,27.557,12z M27.557,24c-2.757,0-5-2.243-5-5
+		s2.243-5,5-5s5,2.243,5,5S30.314,24,27.557,24z"></path><path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952
+		L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M41.099,31.431L27.38,51.243L13.639,31.4
+		C8.44,24.468,9.185,13.08,15.235,7.031C18.479,3.787,22.792,2,27.38,2s8.901,1.787,12.146,5.031
+		C45.576,13.08,46.321,24.468,41.099,31.431z"></path>
+</g></svg><img></span>
+                  <span style="font-weight: 700;">&nbsp;Poolesville High School</span>
+                </p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-3">
+                <div alt="" class="u-image u-image-circle u-image-3" src="" data-image-width="5568" data-image-height="3712"></div>
+                <p class="u-custom-font u-font-raleway u-text u-text-5">Taran Puvvala</p>
+                <p class="u-custom-font u-font-raleway u-text u-text-palette-1-base u-text-6"><span class="u-icon u-icon-3"><svg class="u-svg-content" viewBox="0 0 54.757 54.757" x="0px" y="0px" style="width: 1em; height: 1em;"><g><path d="M27.557,12c-3.859,0-7,3.141-7,7s3.141,7,7,7s7-3.141,7-7S31.416,12,27.557,12z M27.557,24c-2.757,0-5-2.243-5-5
+		s2.243-5,5-5s5,2.243,5,5S30.314,24,27.557,24z"></path><path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952
+		L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M41.099,31.431L27.38,51.243L13.639,31.4
+		C8.44,24.468,9.185,13.08,15.235,7.031C18.479,3.787,22.792,2,27.38,2s8.901,1.787,12.146,5.031
+		C45.576,13.08,46.321,24.468,41.099,31.431z"></path>
+</g></svg><img></span>
+                  <span style="font-weight: 700;">&nbsp;Ardrey Kell High School</span>
+                </p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-4">
+                <div alt="" class="u-image u-image-circle u-image-4" src="" data-image-width="192" data-image-height="192"></div>
+                <p class="u-custom-font u-font-raleway u-text u-text-7">Alan Shao</p>
+                <p class="u-custom-font u-font-raleway u-text u-text-palette-1-base u-text-8"><span class="u-icon u-icon-4"><svg class="u-svg-content" viewBox="0 0 54.757 54.757" x="0px" y="0px" style="width: 1em; height: 1em;"><g><path d="M27.557,12c-3.859,0-7,3.141-7,7s3.141,7,7,7s7-3.141,7-7S31.416,12,27.557,12z M27.557,24c-2.757,0-5-2.243-5-5
+		s2.243-5,5-5s5,2.243,5,5S30.314,24,27.557,24z"></path><path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952
+		L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M41.099,31.431L27.38,51.243L13.639,31.4
+		C8.44,24.468,9.185,13.08,15.235,7.031C18.479,3.787,22.792,2,27.38,2s8.901,1.787,12.146,5.031
+		C45.576,13.08,46.321,24.468,41.099,31.431z"></path>
+</g></svg><img></span>
+                  <span style="font-weight: 700;">&nbsp;Providence High School</span>
+                </p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-5">
+                <div alt="" class="u-image u-image-circle u-image-5" src="" data-image-width="1756" data-image-height="1545"></div>
+                <p class="u-custom-font u-font-raleway u-text u-text-9">Joanna Sohn</p>
+                <p class="u-custom-font u-font-raleway u-text u-text-palette-1-base u-text-10"><span class="u-icon u-icon-5"><svg class="u-svg-content" viewBox="0 0 54.757 54.757" x="0px" y="0px" style="width: 1em; height: 1em;"><g><path d="M27.557,12c-3.859,0-7,3.141-7,7s3.141,7,7,7s7-3.141,7-7S31.416,12,27.557,12z M27.557,24c-2.757,0-5-2.243-5-5
+		s2.243-5,5-5s5,2.243,5,5S30.314,24,27.557,24z"></path><path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952
+		L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M41.099,31.431L27.38,51.243L13.639,31.4
+		C8.44,24.468,9.185,13.08,15.235,7.031C18.479,3.787,22.792,2,27.38,2s8.901,1.787,12.146,5.031
+		C45.576,13.08,46.321,24.468,41.099,31.431z"></path>
+</g></svg><img></span>
+                  <span style="font-weight: 700;">&nbsp;Keystone School</span>
+                </p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-6">
+                <div alt="" class="u-image u-image-circle u-image-6" src="" data-image-width="384" data-image-height="277"></div>
+                <p class="u-custom-font u-font-raleway u-text u-text-11">Amadi Ume</p>
+                <p class="u-custom-font u-font-raleway u-text u-text-palette-1-base u-text-12"><span class="u-icon u-icon-6"><svg class="u-svg-content" viewBox="0 0 54.757 54.757" x="0px" y="0px" style="width: 1em; height: 1em;"><g><path d="M27.557,12c-3.859,0-7,3.141-7,7s3.141,7,7,7s7-3.141,7-7S31.416,12,27.557,12z M27.557,24c-2.757,0-5-2.243-5-5
+		s2.243-5,5-5s5,2.243,5,5S30.314,24,27.557,24z"></path><path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952
+		L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M41.099,31.431L27.38,51.243L13.639,31.4
+		C8.44,24.468,9.185,13.08,15.235,7.031C18.479,3.787,22.792,2,27.38,2s8.901,1.787,12.146,5.031
+		C45.576,13.08,46.321,24.468,41.099,31.431z"></path>
+</g></svg><img></span>
+                  <span style="font-weight: 700;">&nbsp;Providence High School</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-5" id="sec-2f64">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-container-style u-grey-10 u-group u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <h2 class="u-align-center u-custom-font u-text u-text-1">Acknowledgements</h2>
+            <p class="u-align-center u-custom-font u-font-raleway u-text u-text-2">Huge shoutout to Logan, our CV team instructor, and Michael, our camp founder, and the rest of the AI Camp team! Thank you also to Kaggle for providing our garbage classification dataset (kaggle.com/asdasdasasdas/garbage-classification).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-347e"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">© 2021 central-park</p>
+      </div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
+        <span>Website Templates</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="https://nicepage.com/" target="_blank">
+        <span>Website Builder Software</span>
+      </a>. 
+    </section>
+  </body>
+</html>
